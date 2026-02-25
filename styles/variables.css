@@ -11,8 +11,9 @@
   --page-bgColor: #000028;
   --button-hover: 1px solid rgba(255, 0, 112, 0.4);
   --lamp-display: flex;
+  --footer-shadow:2px 2px #FF0070;
 
-  --font-family-base: "IBM Plex Mono", sans-serif;
+  --font-family-base: "IBM Plex Mono", monospace;
   --text-font-size: 18px;
   --font-bold: 700;
   --font-normal: 400;
@@ -23,4 +24,13 @@
   --content-margin: 40px;
   --info-gap: 20px;
   --card-gap: 10px;
+}
+@media(min-width:768px){
+    :root {
+    --padding: 20px;
+    --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --main-padding: 0 20px;
+    --main-gap: 80px;
+    --content-margin: 60px;
+  }
 }

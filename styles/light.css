@@ -7,7 +7,7 @@
   --subtitle-color: #353430;
   --link-effect: 2px 2px #ff8dcb;
   --text-select: #ff8dcb;
-  --page-bgColor: #fff1f7;
+  --page-bg-color: #fff1f7;
   --button-hover: 1px solid rgba(53, 52, 48, 0.4);
   --lamp-display: none;
 }
@@ -21,7 +21,7 @@
     --subtitle-color: #353430;
     --link-effect: 2px 2px #ff8dcb;
     --text-select: #ff8dcb;
-    --page-bgColor: #fff1f7;
+    --page-bg-color: #fff1f7;
     --button-hover: 1px solid rgba(53, 52, 48, 0.4);
     --lamp-display: none;
   }
